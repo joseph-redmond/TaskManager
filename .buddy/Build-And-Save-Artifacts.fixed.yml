@@ -86,6 +86,7 @@
     docker_image_name: "library/ubuntu"
     docker_image_tag: "20.04"
     execute_commands:
+    - "apt update"
     - "apt install doxygen"
     - "mvn doxygen:clean"
     - "mvn doxygen:generate"
