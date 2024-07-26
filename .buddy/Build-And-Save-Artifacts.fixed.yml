@@ -5,6 +5,15 @@
     - "refs/heads/main"
   fail_on_prepare_env_warning: true
   actions:
+  - action: "mvn doxygen:generate"
+    type: "BUILD"
+    docker_image_name: "library/ubuntu"
+    docker_image_tag: "20.04"
+    execute_commands:
+    - "sudo apt install doxygen"
+    - "mvn doxygen:clean"
+    - "mvn doxygen:generate"
+    shell: "BASH"
   - action: "Deploy Clean Artifact"
     type: "BUILD"
     docker_image_name: "library/maven"
