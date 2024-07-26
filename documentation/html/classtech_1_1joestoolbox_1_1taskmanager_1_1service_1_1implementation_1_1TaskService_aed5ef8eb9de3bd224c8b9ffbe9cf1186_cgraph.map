@@ -1,0 +1,5 @@
+<map id="tech.joestoolbox.taskmanager.service.implementation.TaskService.findTasksOrderedByDeadlineAndUrgency" name="tech.joestoolbox.taskmanager.service.implementation.TaskService.findTasksOrderedByDeadlineAndUrgency">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,14,387,59"/>
+<area shape="rect" id="Node000002" href="$interfacetech_1_1joestoolbox_1_1taskmanager_1_1repository_1_1TaskRepository.html#a6e3bde12e9166c7d62562f28af288513" title=" " alt="" coords="435,5,761,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="387,34,419,34,419,39,387,39"/>
+</map>

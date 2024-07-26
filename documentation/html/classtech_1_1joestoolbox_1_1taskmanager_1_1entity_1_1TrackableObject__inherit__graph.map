@@ -1,0 +1,9 @@
+<map id="tech.joestoolbox.taskmanager.entity.TrackableObject" name="tech.joestoolbox.taskmanager.entity.TrackableObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="283,5,536,92"/>
+<area shape="rect" id="Node000002" href="$classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Meeting.html" title=" " alt="" coords="5,142,259,314"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,102,260,149,257,144,330,97"/>
+<area shape="rect" id="Node000003" href="$classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder.html" title=" " alt="" coords="283,142,536,314"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="412,107,412,142,407,142,407,107"/>
+<area shape="rect" id="Node000004" href="$classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Task.html" title=" " alt="" coords="560,140,843,316"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="493,97,562,139,559,144,490,102"/>
+</map>

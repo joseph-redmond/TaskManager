@@ -1,0 +1,105 @@
+\doxysection{tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service Interface Reference}
+\hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService}{}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService}\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+
+
+Inheritance diagram for tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac78206bbd957f1a12fa54d5cca67ed7a}{find\+Project\+By\+Id}} (UUID id)
+\item 
+Page$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a939297360ecc8f1066203b4cf5b4138d}{search\+Projects\+By\+Title}} (String title, Pageable pageable)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac3d510757146292d4b82c3c14badff02}{create\+Project}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} project)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ab68c052ba3a8f2f17e8b7c66da57773e}{update\+Project}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} project, UUID id)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a12668386619131985540212f6d62e3c6}{patch\+Project}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} project, UUID id)
+\item 
+Boolean \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a600539b2d6bbd808a63d3e9b597b9de2}{delete\+Project}} (UUID id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac3d510757146292d4b82c3c14badff02}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac3d510757146292d4b82c3c14badff02} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!createProject@{createProject}}
+\index{createProject@{createProject}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{createProject()}{createProject()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+create\+Project (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}}}]{project }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_afb78710fd73b1a6ad8fbc3746497b8d8}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a600539b2d6bbd808a63d3e9b597b9de2}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a600539b2d6bbd808a63d3e9b597b9de2} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!deleteProject@{deleteProject}}
+\index{deleteProject@{deleteProject}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{deleteProject()}{deleteProject()}}
+{\footnotesize\ttfamily Boolean tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+delete\+Project (\begin{DoxyParamCaption}\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_a6163f63e286c7fe0d844eaa60fd25ab8}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac78206bbd957f1a12fa54d5cca67ed7a}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ac78206bbd957f1a12fa54d5cca67ed7a} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!findProjectById@{findProjectById}}
+\index{findProjectById@{findProjectById}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{findProjectById()}{findProjectById()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+find\+Project\+By\+Id (\begin{DoxyParamCaption}\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_a510956ad816a3696e4b59056fe15be6a}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a12668386619131985540212f6d62e3c6}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a12668386619131985540212f6d62e3c6} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!patchProject@{patchProject}}
+\index{patchProject@{patchProject}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{patchProject()}{patchProject()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+patch\+Project (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}}}]{project,  }\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_a7da3b23e96610738f32438ec652fd3c6}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a939297360ecc8f1066203b4cf5b4138d}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_a939297360ecc8f1066203b4cf5b4138d} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!searchProjectsByTitle@{searchProjectsByTitle}}
+\index{searchProjectsByTitle@{searchProjectsByTitle}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{searchProjectsByTitle()}{searchProjectsByTitle()}}
+{\footnotesize\ttfamily Page$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+search\+Projects\+By\+Title (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{Pageable}]{pageable }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_ac52c0b88f32dd71e50139bf7017d4c57}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ab68c052ba3a8f2f17e8b7c66da57773e}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService_ab68c052ba3a8f2f17e8b7c66da57773e} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}!updateProject@{updateProject}}
+\index{updateProject@{updateProject}!tech.joestoolbox.taskmanager.service.interfaces.IProjectService@{tech.joestoolbox.taskmanager.service.interfaces.IProjectService}}
+\doxysubsubsection{\texorpdfstring{updateProject()}{updateProject()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IProject\+Service.\+update\+Project (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project}{Project}}}]{project,  }\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService_a3ab1f3cd5f9018750d7b765d23dcf684}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Project\+Service}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/tech/joestoolbox/taskmanager/service/interfaces/\mbox{\hyperlink{IProjectService_8java}{IProject\+Service.\+java}}\end{DoxyCompactItemize}

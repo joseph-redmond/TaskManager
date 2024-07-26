@@ -1,0 +1,13 @@
+<map id="tech.joestoolbox.taskmanager.service.implementation.ReminderService" name="tech.joestoolbox.taskmanager.service.implementation.ReminderService">
+<area shape="rect" id="Node000001" title=" " alt="" coords="271,417,644,628"/>
+<area shape="rect" id="Node000002" href="$interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService.html" title=" " alt="" coords="5,141,339,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,361,351,415,347,419,290,365"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="363,212,421,281"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="402,280,431,400,426,401,397,282"/>
+<area shape="rect" id="Node000004" href="$interfacetech_1_1joestoolbox_1_1taskmanager_1_1repository_1_1ReminderRepository.html" title=" " alt="" coords="445,203,726,290"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="568,291,516,403,511,401,563,288"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="493,5,678,92"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="588,107,588,203,583,203,583,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="750,212,837,281"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="784,282,766,318,741,354,702,390,660,421,656,417,699,386,737,350,762,316,779,280"/>
+</map>

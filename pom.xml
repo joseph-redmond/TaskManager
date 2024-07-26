@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>tech.conceptualarts</groupId>
+	<groupId>tech.joestoolbox</groupId>
 	<artifactId>taskmanager</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>Task Manager</name>
 
 	<description>An Ai Assistant For Everyone</description>
@@ -38,9 +38,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>tech.conceptualarts</groupId>
+			<groupId>tech.joestoolbox</groupId>
 			<artifactId>logging-helper</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.4</version>
 		</dependency>
 
 		<dependency>
@@ -78,20 +78,27 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.hibernate.orm.tooling</groupId>
-				<artifactId>hibernate-enhance-maven-plugin</artifactId>
-				<version>${hibernate.version}</version>
+				<groupId>de.oscillation.maven</groupId>
+				<artifactId>doxygen-maven-plugin</artifactId>
+				<version>0.1.0</version>
+				<configuration>
+					<workingDirectory>${basedir}</workingDirectory>
+					<autogen>false</autogen>
+				</configuration>
 				<executions>
 					<execution>
-						<id>enhance</id>
+						<id>clean</id>
+						<phase>clean</phase>
 						<goals>
-							<goal>enhance</goal>
+							<goal>clean</goal>
 						</goals>
-						<configuration>
-							<enableLazyInitialization>true</enableLazyInitialization>
-							<enableDirtyTracking>true</enableDirtyTracking>
-							<enableAssociationManagement>true</enableAssociationManagement>
-						</configuration>
+					</execution>
+					<execution>
+						<id>generate</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
 					</execution>
 				</executions>
 			</plugin>
@@ -107,8 +114,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>ftp-repo</id>
-			<url>sftp://access973311628.webspace-data.io/maven-repository</url>
+			<id>josephredmond-releases</id>
+			<url>https://artifacts.josephredmond.com/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 </project>

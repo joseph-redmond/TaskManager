@@ -1,0 +1,13 @@
+<map id="tech.joestoolbox.taskmanager.service.implementation.TaskService" name="tech.joestoolbox.taskmanager.service.implementation.TaskService">
+<area shape="rect" id="Node000001" title=" " alt="" coords="271,310,644,414"/>
+<area shape="rect" id="Node000002" href="$interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1ITaskService.html" title=" " alt="" coords="5,141,339,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,251,372,308,369,313,271,255"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="363,159,421,228"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="408,227,434,294,429,296,403,229"/>
+<area shape="rect" id="Node000004" href="$interfacetech_1_1joestoolbox_1_1taskmanager_1_1repository_1_1TaskRepository.html" title=" " alt="" coords="445,141,726,245"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="549,247,508,299,504,296,544,243"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="510,5,661,92"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="588,107,588,141,583,141,583,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="750,159,837,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="763,230,740,248,684,279,625,306,623,301,682,275,737,243,760,226"/>
+</map>

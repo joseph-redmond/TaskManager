@@ -1,0 +1,105 @@
+\doxysection{tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service Interface Reference}
+\hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService}{}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService}\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+
+
+Inheritance diagram for tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa4265c8d429ae89b172377704a870042}{find\+Reminder\+By\+Id}} (UUID id)
+\item 
+Page$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab17b030b17187ecccd118a646909d5ad}{find\+All\+Reminders\+Ordered\+By\+Deadline}} (Pageable pageable)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab503029edeaff171e33b6f6f20674d94}{create\+Reminder}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} reminder)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa850c6f1e6784e2fd3080c3561d0e25e}{update\+Reminder}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} reminder, UUID id)
+\item 
+Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a87e277ad5a4d2158908c90ee5e166ba2}{patch\+Reminder}} (\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} reminder, UUID id)
+\item 
+Boolean \mbox{\hyperlink{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a62371b7783f9fef4c434865a822333f1}{delete\+Reminder}} (UUID id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab503029edeaff171e33b6f6f20674d94}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab503029edeaff171e33b6f6f20674d94} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!createReminder@{createReminder}}
+\index{createReminder@{createReminder}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{createReminder()}{createReminder()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+create\+Reminder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}}}]{reminder }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_a0069dd5af711412dac1aaba77b7a0912}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a62371b7783f9fef4c434865a822333f1}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a62371b7783f9fef4c434865a822333f1} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!deleteReminder@{deleteReminder}}
+\index{deleteReminder@{deleteReminder}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{deleteReminder()}{deleteReminder()}}
+{\footnotesize\ttfamily Boolean tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+delete\+Reminder (\begin{DoxyParamCaption}\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_a6affbde748230af0df5263bf364e9b9c}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab17b030b17187ecccd118a646909d5ad}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_ab17b030b17187ecccd118a646909d5ad} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!findAllRemindersOrderedByDeadline@{findAllRemindersOrderedByDeadline}}
+\index{findAllRemindersOrderedByDeadline@{findAllRemindersOrderedByDeadline}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{findAllRemindersOrderedByDeadline()}{findAllRemindersOrderedByDeadline()}}
+{\footnotesize\ttfamily Page$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+find\+All\+Reminders\+Ordered\+By\+Deadline (\begin{DoxyParamCaption}\item[{Pageable}]{pageable }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_a865c92f5f78fd5691f538f132a37ef23}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa4265c8d429ae89b172377704a870042}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa4265c8d429ae89b172377704a870042} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!findReminderById@{findReminderById}}
+\index{findReminderById@{findReminderById}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{findReminderById()}{findReminderById()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+find\+Reminder\+By\+Id (\begin{DoxyParamCaption}\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_a5b0e9906891d9fb6961cd5375921a439}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a87e277ad5a4d2158908c90ee5e166ba2}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_a87e277ad5a4d2158908c90ee5e166ba2} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!patchReminder@{patchReminder}}
+\index{patchReminder@{patchReminder}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{patchReminder()}{patchReminder()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+patch\+Reminder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}}}]{reminder,  }\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_ad6ccd047eb86f4f0ff3ccce6b176c761}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+\Hypertarget{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa850c6f1e6784e2fd3080c3561d0e25e}\label{interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService_aa850c6f1e6784e2fd3080c3561d0e25e} 
+\index{tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}!updateReminder@{updateReminder}}
+\index{updateReminder@{updateReminder}!tech.joestoolbox.taskmanager.service.interfaces.IReminderService@{tech.joestoolbox.taskmanager.service.interfaces.IReminderService}}
+\doxysubsubsection{\texorpdfstring{updateReminder()}{updateReminder()}}
+{\footnotesize\ttfamily Optional$<$ \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}} $>$ tech.\+joestoolbox.\+taskmanager.\+service.\+interfaces.\+IReminder\+Service.\+update\+Reminder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder}{Reminder}}}]{reminder,  }\item[{UUID}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService_a3194bb636f6f2387c6e0848123af5674}{tech.\+joestoolbox.\+taskmanager.\+service.\+implementation.\+Reminder\+Service}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/tech/joestoolbox/taskmanager/service/interfaces/\mbox{\hyperlink{IReminderService_8java}{IReminder\+Service.\+java}}\end{DoxyCompactItemize}

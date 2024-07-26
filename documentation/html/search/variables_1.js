@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['classname_0',['CLASSNAME',['../classtech_1_1joestoolbox_1_1taskmanager_1_1adapter_1_1TaskAdapter.html#ad2ea87e2c310148cb2ec60908df66ffc',1,'tech.joestoolbox.taskmanager.adapter.TaskAdapter.CLASSNAME'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService.html#a061d4de17c3cd45055bf4583b7879b72',1,'tech.joestoolbox.taskmanager.service.implementation.ProjectService.CLASSNAME'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService.html#a7c0123d7cca44613c7f4fec57c1ece18',1,'tech.joestoolbox.taskmanager.service.implementation.ReminderService.CLASSNAME'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1TaskService.html#a2af3ca3f1a830aaadd78240856d3cb8e',1,'tech.joestoolbox.taskmanager.service.implementation.TaskService.CLASSNAME']]],
+  ['complete_1',['complete',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder.html#ad2f41881ca34686b519b697a9a8bdd87',1,'tech::joestoolbox::taskmanager::entity::Reminder']]]
+];
