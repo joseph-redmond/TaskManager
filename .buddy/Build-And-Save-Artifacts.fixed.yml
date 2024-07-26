@@ -76,7 +76,7 @@
     - "    </mirrors>"
     - ""
     - "</settings>"
-    - "\" ~/.m2/settings.xml"
+    - "\" > ~/.m2/settings.xml"
     - "mvn clean deploy"
     cached_dirs:
     - "/root/.m2/repository"
