@@ -79,7 +79,7 @@
     - ""
     - "</settings>"
     - "' > ~/.m2/settings.xml"
-    - "mvn clean package"
+    - "mvn clean deploy"
     cached_dirs:
     - "/root/.m2/repository"
     ignore_errors: true
