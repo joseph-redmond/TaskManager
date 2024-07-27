@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['task_0',['Task',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Task.html',1,'tech::joestoolbox::taskmanager::entity']]],
-  ['task_2ejava_1',['Task.java',['../Task_8java.html',1,'']]],
-  ['taskadapter_2',['TaskAdapter',['../classtech_1_1joestoolbox_1_1taskmanager_1_1adapter_1_1TaskAdapter.html',1,'tech::joestoolbox::taskmanager::adapter']]],
-  ['taskadapter_2ejava_3',['TaskAdapter.java',['../TaskAdapter_8java.html',1,'']]],
-  ['taskrepository_4',['TaskRepository',['../interfacetech_1_1joestoolbox_1_1taskmanager_1_1repository_1_1TaskRepository.html',1,'tech::joestoolbox::taskmanager::repository']]],
-  ['taskrepository_5',['taskRepository',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1TaskService.html#a94b118179c333d4d7db896aadfcdb926',1,'tech::joestoolbox::taskmanager::service::implementation::TaskService']]],
-  ['taskrepository_2ejava_6',['TaskRepository.java',['../TaskRepository_8java.html',1,'']]],
-  ['taskservice_7',['TaskService',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1TaskService.html',1,'tech::joestoolbox::taskmanager::service::implementation']]],
-  ['taskservice_8',['taskService',['../classtech_1_1joestoolbox_1_1taskmanager_1_1adapter_1_1TaskAdapter.html#ae8ed45e956fe487828cdfc7ff14bf04b',1,'tech::joestoolbox::taskmanager::adapter::TaskAdapter']]],
-  ['taskservice_2ejava_9',['TaskService.java',['../TaskService_8java.html',1,'']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aadapter_10',['adapter',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1adapter.html',1,'tech::joestoolbox::taskmanager']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aconstant_11',['constant',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1constant.html',1,'tech::joestoolbox::taskmanager']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aentity_12',['entity',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1entity.html',1,'tech::joestoolbox::taskmanager']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aenums_13',['enums',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1enums.html',1,'tech::joestoolbox::taskmanager']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3arepository_14',['repository',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1repository.html',1,'tech::joestoolbox::taskmanager']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aservice_3a_3aimplementation_15',['implementation',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation.html',1,'tech::joestoolbox::taskmanager::service']]],
-  ['tech_3a_3ajoestoolbox_3a_3ataskmanager_3a_3aservice_3a_3ainterfaces_16',['interfaces',['../namespacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces.html',1,'tech::joestoolbox::taskmanager::service']]],
-  ['title_17',['title',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Meeting.html#ac09fa97ce2081dbdf0af9e4951ab3c67',1,'tech.joestoolbox.taskmanager.entity.Meeting.title'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Project.html#af6903f2339b8278ba984f6fa2855e75a',1,'tech.joestoolbox.taskmanager.entity.Project.title'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Task.html#afb9c7ccccc23fda3bf2a52f98b9e9b75',1,'tech.joestoolbox.taskmanager.entity.Task.title']]],
-  ['trackableobject_18',['TrackableObject',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1TrackableObject.html',1,'tech::joestoolbox::taskmanager::entity']]],
-  ['trackableobject_2ejava_19',['TrackableObject.java',['../TrackableObject_8java.html',1,'']]],
-  ['type_20',['type',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder.html#a8291988a998ab876eccec3edb6f40f26',1,'tech::joestoolbox::taskmanager::entity::Reminder']]]
+  ['quotes_0',['Quotes',['../classMyLibrary_1_1Example.html#autotoc_md26',1,'']]]
 ];

@@ -1,9 +1,16 @@
 var searchData=
 [
-  ['updateproject_0',['updateProject',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService.html#a3ab1f3cd5f9018750d7b765d23dcf684',1,'tech.joestoolbox.taskmanager.service.implementation.ProjectService.updateProject()'],['../interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService.html#ab68c052ba3a8f2f17e8b7c66da57773e',1,'tech.joestoolbox.taskmanager.service.interfaces.IProjectService.updateProject()']]],
-  ['updatereminder_1',['updateReminder',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService.html#a3194bb636f6f2387c6e0848123af5674',1,'tech.joestoolbox.taskmanager.service.implementation.ReminderService.updateReminder()'],['../interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IReminderService.html#aa850c6f1e6784e2fd3080c3561d0e25e',1,'tech.joestoolbox.taskmanager.service.interfaces.IReminderService.updateReminder()']]],
-  ['urgency_2',['Urgency',['../enumtech_1_1joestoolbox_1_1taskmanager_1_1enums_1_1Urgency.html',1,'tech::joestoolbox::taskmanager::enums']]],
-  ['urgency_3',['urgency',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Meeting.html#a4a4c70b552dfdb9ea9c0630d70c4f937',1,'tech.joestoolbox.taskmanager.entity.Meeting.urgency'],['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Task.html#ae395d78842b9c1b804eba9d9abf56e73',1,'tech.joestoolbox.taskmanager.entity.Task.urgency']]],
-  ['urgency_2ejava_4',['Urgency.java',['../Urgency_8java.html',1,'']]],
-  ['urgent_5',['URGENT',['../enumtech_1_1joestoolbox_1_1taskmanager_1_1enums_1_1Urgency.html#a3f3b0e2719a57de8d76a7230a9a2ea38',1,'tech::joestoolbox::taskmanager::enums::Urgency']]]
+  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]],
+  ['red_1',['red',['../namespaceMyLibrary.html#a79a9f4bbb675f6c082b09249c5a95ceda82b4a54f6fbf39698c2a6982d75f4f0c',1,'MyLibrary']]],
+  ['reminder_2',['Reminder',['../classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Reminder.html',1,'tech::joestoolbox::taskmanager::entity']]],
+  ['reminder_2ejava_3',['Reminder.java',['../Reminder_8java.html',1,'']]],
+  ['remindererrormessage_4',['ReminderErrorMessage',['../classtech_1_1joestoolbox_1_1taskmanager_1_1constant_1_1ReminderErrorMessage.html',1,'tech::joestoolbox::taskmanager::constant']]],
+  ['remindererrormessage_2ejava_5',['ReminderErrorMessage.java',['../ReminderErrorMessage_8java.html',1,'']]],
+  ['reminderrepository_6',['ReminderRepository',['../interfacetech_1_1joestoolbox_1_1taskmanager_1_1repository_1_1ReminderRepository.html',1,'tech::joestoolbox::taskmanager::repository']]],
+  ['reminderrepository_7',['reminderRepository',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService.html#af2577e323373be76cbf3252b16b91858',1,'tech::joestoolbox::taskmanager::service::implementation::ReminderService']]],
+  ['reminderrepository_2ejava_8',['ReminderRepository.java',['../ReminderRepository_8java.html',1,'']]],
+  ['reminderservice_9',['ReminderService',['../classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ReminderService.html',1,'tech::joestoolbox::taskmanager::service::implementation']]],
+  ['reminderservice_2ejava_10',['ReminderService.java',['../ReminderService_8java.html',1,'']]],
+  ['remindertype_11',['ReminderType',['../enumtech_1_1joestoolbox_1_1taskmanager_1_1enums_1_1ReminderType.html',1,'tech::joestoolbox::taskmanager::enums']]],
+  ['remindertype_2ejava_12',['ReminderType.java',['../ReminderType_8java.html',1,'']]]
 ];

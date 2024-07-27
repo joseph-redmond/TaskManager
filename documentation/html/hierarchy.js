@@ -1,5 +1,8 @@
 var hierarchy =
 [
+    [ "MyLibrary::Example", "classMyLibrary_1_1Example.html", [
+      [ "MyLibrary::SubclassExample< TemplatedClass >", "classMyLibrary_1_1SubclassExample.html", null ]
+    ] ],
     [ "tech.joestoolbox.taskmanager.service.interfaces.IProjectService", "interfacetech_1_1joestoolbox_1_1taskmanager_1_1service_1_1interfaces_1_1IProjectService.html", [
       [ "tech.joestoolbox.taskmanager.service.implementation.ProjectService", "classtech_1_1joestoolbox_1_1taskmanager_1_1service_1_1implementation_1_1ProjectService.html", null ]
     ] ],
@@ -13,6 +16,7 @@ var hierarchy =
     [ "tech.joestoolbox.taskmanager.constant.ProjectErrorMessage", "classtech_1_1joestoolbox_1_1taskmanager_1_1constant_1_1ProjectErrorMessage.html", null ],
     [ "tech.joestoolbox.taskmanager.constant.ReminderErrorMessage", "classtech_1_1joestoolbox_1_1taskmanager_1_1constant_1_1ReminderErrorMessage.html", null ],
     [ "tech.joestoolbox.taskmanager.enums.ReminderType", "enumtech_1_1joestoolbox_1_1taskmanager_1_1enums_1_1ReminderType.html", null ],
+    [ "MyLibrary::SecondExample", "classMyLibrary_1_1SecondExample.html", null ],
     [ "tech.joestoolbox.taskmanager.adapter.TaskAdapter", "classtech_1_1joestoolbox_1_1taskmanager_1_1adapter_1_1TaskAdapter.html", null ],
     [ "tech.joestoolbox.taskmanager.entity.TrackableObject", "classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1TrackableObject.html", [
       [ "tech.joestoolbox.taskmanager.entity.Meeting", "classtech_1_1joestoolbox_1_1taskmanager_1_1entity_1_1Meeting.html", null ],

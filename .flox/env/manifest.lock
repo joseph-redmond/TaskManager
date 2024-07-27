@@ -1,0 +1,390 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "doxygen": {
+        "pkg-path": "doxygen"
+      },
+      "jdk": {
+        "pkg-path": "jdk"
+      },
+      "maven": {
+        "pkg-path": "maven"
+      }
+    },
+    "vars": {},
+    "hook": {},
+    "profile": {
+      "common": "    mvn clean package\n"
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "doxygen",
+      "broken": false,
+      "derivation": "/nix/store/2v6z93v80k455r3ijb9972yrvpp91p6d-doxygen-1.10.0.drv",
+      "description": "Source code documentation generator tool",
+      "install_id": "doxygen",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "doxygen-1.10.0",
+      "pname": "doxygen",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "examples": "/nix/store/kv0iq3bihs3rbws93h2y7cl0bm6ng44g-doxygen-1.10.0-examples",
+        "out": "/nix/store/xfg1im02zspp5f2vy3law0fv11yi2biw-doxygen-1.10.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "doxygen",
+      "broken": false,
+      "derivation": "/nix/store/y89d4z4wsd4aw2ds77phrgrn49kyczml-doxygen-1.10.0.drv",
+      "description": "Source code documentation generator tool",
+      "install_id": "doxygen",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "doxygen-1.10.0",
+      "pname": "doxygen",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "examples": "/nix/store/2za0whzqm2bwqqrffydpifxmcxlimqkp-doxygen-1.10.0-examples",
+        "out": "/nix/store/wnraigbflsp8vv82wvn2b91s3r48wg3w-doxygen-1.10.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "doxygen",
+      "broken": false,
+      "derivation": "/nix/store/g3dx1k9nw0yzfqmli87adz3n70hx6zs1-doxygen-1.10.0.drv",
+      "description": "Source code documentation generator tool",
+      "install_id": "doxygen",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "doxygen-1.10.0",
+      "pname": "doxygen",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "examples": "/nix/store/n64103js4zfyccgral77yzci8wxvgd6k-doxygen-1.10.0-examples",
+        "out": "/nix/store/8zwvfp8nn7a8czi9f7mrn2nrygyz8ab1-doxygen-1.10.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "doxygen",
+      "broken": false,
+      "derivation": "/nix/store/mqw3dl7srw4lya7qzndv1sz28l1p1jpq-doxygen-1.10.0.drv",
+      "description": "Source code documentation generator tool",
+      "install_id": "doxygen",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "doxygen-1.10.0",
+      "pname": "doxygen",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "examples": "/nix/store/yrd4pgjlc2cssg8z8ch557j8bzh6zd1k-doxygen-1.10.0-examples",
+        "out": "/nix/store/xjh08fc0zdhf7abpzkcfjr10akqj1vbq-doxygen-1.10.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/wv0bi28m4ra52v78kcclqhah2ihcgxdb-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hxskzr9a3m0prpy9l41bnw3rmmahvdb6-zulu-ca-jdk-21.0.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/ypimcn7kry7azlpsfam9v0582f04akgy-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/5b1lcnifgphdnx33rk6ll65w5d7hwbka-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/vgryxqidd03i51500895kmlanr78j4x6-openjdk-21.0.3+9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/k963ksk09vkhbsiwxcx9v3kk8s6hd746-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/naj6kwxwi4k20x5ngh6sms6n5a0il1x2-zulu-ca-jdk-21.0.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/7b35kyhdbgbxf869hsc4vhyymj8hsa9z-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/ys8547v5n6rxhlfjmz73m4ld4wc26ig4-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/k9snfnb9i9yc1ww9r0bb0vah9mgwjw7c-openjdk-21.0.3+9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/vm0kda4wlidqmcngvbg8i3m02gw2skpr-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "maven-3.9.8",
+      "pname": "maven",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0d8kkkjxhyhq5wjpd6hr1fd1jm6lkccs-maven-3.9.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/wbfzw27a0p4fdp885cy787520h7vdrh2-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "maven-3.9.8",
+      "pname": "maven",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zqs2d38clgijai4shrdz65p9lfz2xxqr-maven-3.9.8"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/22ldxvi2q3yngdnklfyqccwrmkn8fi4a-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "maven-3.9.8",
+      "pname": "maven",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/a6axzpshbwq4iqhg1pwlaiqs833iyw7z-maven-3.9.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/39sxkhy5x7zixk8hmhmrp4frz9j2w2z2-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "maven-3.9.8",
+      "pname": "maven",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/xakm4i74cjz08wlnb11b3z7m2w23ly7c-maven-3.9.8"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

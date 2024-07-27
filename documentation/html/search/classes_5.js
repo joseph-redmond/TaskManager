@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['urgency_0',['Urgency',['../enumtech_1_1joestoolbox_1_1taskmanager_1_1enums_1_1Urgency.html',1,'tech::joestoolbox::taskmanager::enums']]]
+  ['secondexample_0',['SecondExample',['../classMyLibrary_1_1SecondExample.html',1,'MyLibrary']]],
+  ['subclassexample_1',['SubclassExample',['../classMyLibrary_1_1SubclassExample.html',1,'MyLibrary']]]
 ];
