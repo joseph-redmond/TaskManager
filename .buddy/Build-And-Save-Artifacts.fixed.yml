@@ -81,13 +81,3 @@
     - "/root/.m2/repository"
     ignore_errors: true
     shell: "BASH"
-  - action: "mvn doxygen:generate"
-    type: "BUILD"
-    docker_image_name: "library/ubuntu"
-    docker_image_tag: "20.04"
-    execute_commands:
-    - "apt update"
-    - "apt install doxygen -y"
-    - "apt install maven"
-    - "mvn clean package"
-    shell: "BASH"
