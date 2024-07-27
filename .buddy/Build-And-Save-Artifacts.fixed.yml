@@ -1,4 +1,4 @@
-- pipeline: "Build And Save Artifacts"
+- pipeline: "Build And Deploy Artifact"
   events:
   - type: "PUSH"
     refs:
