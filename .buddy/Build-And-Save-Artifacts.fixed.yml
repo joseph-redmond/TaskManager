@@ -87,7 +87,7 @@
     docker_image_tag: "20.04"
     execute_commands:
     - "apt update"
-    - "apt install doxygen"
+    - "apt install doxygen -y"
     - "mvn doxygen:clean"
     - "mvn doxygen:generate"
     shell: "BASH"
