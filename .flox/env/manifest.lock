@@ -16,7 +16,7 @@
     "vars": {},
     "hook": {},
     "profile": {
-      "common": "    mvn clean package\n"
+      "common": "    mvn clean package\n    exit\n"
     },
     "options": {
       "systems": [

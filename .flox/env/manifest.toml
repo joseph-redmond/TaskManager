@@ -44,6 +44,7 @@ doxygen.pkg-path = "doxygen"
 [profile]
 common = '''
     mvn clean package
+    exit
 '''
 # common = '''
 #   echo "it's gettin' flox in here"
